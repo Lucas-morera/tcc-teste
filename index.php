@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/spinkit.css">
+    <link rel="stylesheet" href="../css/cssgeral.css"/> 
+    <link rel="shortcut icon" href="../img/fav.png" type="image/x-icon"/> 
+    <title>Logística Verde</title>
+</head>
+
+<body>
+    
+    <div class="loader">
+    <div class="sk-fold">
+      <div class="sk-fold-cube"></div>
+      <div class="sk-fold-cube"></div>
+      <div class="sk-fold-cube"></div>
+      <div class="sk-fold-cube"></div>
+    </div>
+  </div>
+
+    <nav class="nav d-flex justify-content-end align-items-center " id="nave">
+        <a class="nav-link scroll" href="#home">Home</a>
+        <a class="nav-link scroll" href="#servicos">Serviços</a>
+        <a class="nav-link scroll" href="#quemsomos">Quem Somos</a>
+        <a class="nav-link scroll" href="#localizacao">Localização</a>
+        <a class="nav-link scroll" href="#" data-toggle="modal" data-target=".bd-example-modal-lg">Contato</a>
+        <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+    </nav>
+      
+    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel" >
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner pt-5" id="home">
+    <div class="carousel-item active">
+      <img src="../img/home.jpg" class="d-block w-100 img" alt="Logística Verde">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="mb-5">Logística Verde</h5>
+        <p style="color:white"></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/homeII.jpg" class="d-block w-100 img" alt="Logística Verde">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="mb-5">Logística Verde</h5>
+        <p style="color:white"></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/homeIII.jpg" class="d-block w-100 img" alt="Logística Verde">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="mb-5">Logística Verde</h5>
+        <p style="color:white"></p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+    <div class="session-one">
+        <!-- <h4 class="d-flex justify-content-center">Logística Verde</h4> -->
+    </div>
+    <div class="session-duo " id="servicos">
+        <h3 class="d-flex justify-content-center align-items-center pt-6">Serviços</h3>
+        <hr class="divider-quart mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-md-0 mb-lg-0 mb-2">
+                    <div class="card" style="width: 100%; height: 96%;">
+                        <img src="../img/venda.png" class="card-img-top" alt="..." style=" height: 8rem; width: 9rem; margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">Venda</h5>
+                            <p class="card-text font-card">Através do óleo ,possa ser gerado um lucro para o seu estabelecimento financeiro ,assim pode entrar em contato com comércios ou locais que disponibilizam a venda do l óleo
+                                Cadastra-se e entre em contato com estabelecimento que estão dispostos a fazer a venda do produto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-md-0 mb-lg-0 mb-2">
+                    <div class="card" style="width: 100%; height: 96%;">
+                        <img src="../img/doa.png" class="card-img-top" alt="..." style=" height: 8rem; width: auto; margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">Doação</h5>
+                            <p class="card-text font-card">A doação é feita para que o óleo possa ser reutilizado ,assim pode fazer uma doação ou entrar com o pedido para que o produto seja doado a você
+                                Cadastra-se para que possa entrar em contato com outro estabelecimento que atenda seu pedido.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-md-0 mb-lg-0 mb-2">
+                    <div class="card" style="width: 100%; height: 96%;">
+                        <img src="../img/troca.png" class="card-img-top" alt="..." style=" height: 7rem; width: 8rem; margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">Troca</h5>
+                            <p class="card-text font-card">O óleo é guardado e reciclado e é usado em muito produtos de limpeza como o sabão, pode ser feito uma troca de óleo com
+                                algum outro estabelecimento, a partir da sua doação você recebe em troca um produto de limpeza ou algo útil que pode ser usado em sua casa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="session-tree mt-5" id="quemsomos">
+        <div class="container">
+            <div class="row pt-7">
+                <div class="col-md-6 col-12 ">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="d-flex justify-content-center align-items-center">Quem somos</h3>
+                            <hr class="divider-quart mb-4">
+                            <div class="container-fluid">
+                                <p style="font-size:110%">
+                                    Somos uma empresa com princípios sustentáveis que aposta na reciclagem com o objetivo de reduzir a geração de resíduos, poupar matérias-primas, economizar energia elétrica, água e preservar ao meio ambiente. Venha conhecer nossos projetos e colaborar conosco para juntos fazermos a mudança.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <div class="row">
+                        <div class="col-md-12 mt-md-4 mt-0">
+                            <img src="../img/unnamed.png" style="width:inherit;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="session-qua pt-7 mt-4 mt-md-0" id="localizacao">
+        <h3 class="d-flex justify-content-center align-items-center">Localização</h3>
+        <hr class="divider-quart mb-4">
+        <div class=" d-flex justify-content-center h-100">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.0886532906025!2d-46.7831880457731!3d-23.20343957446733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cedee3fc0216e5%3A0x66e0c7784e7f5ef4!2sAv.%20Adherbal%20da%20Costa%20Moreira%2C%20456%20-%20Centro%2C%20Campo%20Limpo%20Paulista%20-%20SP%2C%2013231-190!5e0!3m2!1spt-BR!2sbr!4v1590607963926!5m2!1spt-BR!2sbr" width="70%" height="95%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>    
+        </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="../include/email.php" method="POST">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Nome Completo</label>
+                                    <input type="name" class="form-control" name="nome" placeholder="Nome Completo">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Celular</label>
+                                    <input type="text" class="form-control celular" id="celular" name="celular" maxlength="14" placeholder="( ) __-__">
+                                </div>
+                                <div class="col-12 mt-1">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
+                                </div>
+                                <div class="col-12 mb-2 mt-1">
+                                    <label>Assunto</label>
+                                    <textarea class="form-control" name="assunto" placeholder="Assunto e Produto"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary" name="sendemail">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../Mask/dist/jquery.mask.min.js"></script>
+    <script src="../js/pace.min.js"></script>
+    <script src="../js/jsgeral.js"></script>
+    
+
+
+</body>
+
+</html>
